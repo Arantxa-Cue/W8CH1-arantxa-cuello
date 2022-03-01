@@ -7,6 +7,7 @@ export default function Home() {
     <>
       <Head>
         <link rel="icon" href="/favico.ico" />
+        <title>Pokemon</title>
       </Head>
       <div>
         <h3>Welcome to Pokemon</h3>

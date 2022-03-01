@@ -1,11 +1,13 @@
 import "../styles/globals.css";
+import Layout from "./components/layout";
 import Navigation from "./navigation";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Navigation />
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }
