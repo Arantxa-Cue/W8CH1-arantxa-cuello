@@ -16,10 +16,10 @@ const Navigation = () => {
           <Link href="/PokemonSSR">Mis pokémon SSR</Link>
         </li>
         <li>
-          <Link href="/mis-pokemon-ssg">Mis pokémon SSG</Link>
+          <Link href="/PokemonsSSG">Mis pokémon SSG</Link>
         </li>
         <li>
-          <Link href="/mis-pokemon-isr">Mis pokémon ISR</Link>
+          <Link href="/PokemonsISR">Mis pokémon ISR</Link>
         </li>
       </ul>
     </>
