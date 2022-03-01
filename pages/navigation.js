@@ -1,19 +1,19 @@
 import Link from "next/link";
 
-export default function Navigation() {
+const Navigation = () => {
   return (
     <>
-      <ul>
-        <li>
+      <ul className="nav">
+        <li className="nav-list">
           <Link href="/">
             <a>Home</a>
           </Link>
         </li>
         <li>
-          <Link href="/pokemon">Pokemon</Link>
+          <Link href="/PokemonList">Pokemon</Link>
         </li>
         <li>
-          <Link href="/mis-pokemon-ssr">Mis pokémon SSR</Link>
+          <Link href="/PokemonSSR">Mis pokémon SSR</Link>
         </li>
         <li>
           <Link href="/mis-pokemon-ssg">Mis pokémon SSG</Link>
@@ -24,4 +24,6 @@ export default function Navigation() {
       </ul>
     </>
   );
-}
+};
+
+export default Navigation;
